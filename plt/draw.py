@@ -23,7 +23,7 @@ cv2.polylines(img, [pts], True, (0, 0, 255))
 cv2.fillPoly(img, [pts], (122,22, 2))
 
 # 画文本
-
+cv2.putText(img, "Hello", (100,100), cv2.FONT_HERSHEY_PLAIN, 5, (122 ,2 ,23))
 
 
 cv2.imshow('draw', img)
