@@ -32,6 +32,10 @@
                 YUV4：2：4
 
 ![这是图片](img/YUV4_2_0.jpg "Magic Gardens")
+
+    # shape属性 包含三个信息 ： 高度， 长度， 通道数
+    # size = 高度 * 长度 * 通道数
+    # dtype 元素位深
     
 # Numpy
 
@@ -80,3 +84,4 @@ Mat 深拷贝
 cv::Mat::clone()
 cv::Mat::copyTo()
 copy()
+
