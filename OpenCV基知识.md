@@ -15,7 +15,7 @@
           Saturation : 饱和度，颜色的纯度
           Value ： 明度
 
-！[这是图片](img/HSV.jpg "Magic Gardens")
+！[这是图片](./img/HSV.jpg "Magic Gardens")
 
     为什么要使用HSV：方便判断色相
 
@@ -24,14 +24,14 @@
           Saturation : 饱和度，颜色的纯度
           Lightness : 亮度
 
-![这是图片](img/HSL.jpg "Magic Gardens")
+![这是图片](./img/HSL.jpg "Magic Gardens")
 
 
     3. YUV ：   YUV4：2：0
                 YUV4：2：2
                 YUV4：2：4
 
-![这是图片](img/YUV4_2_0.jpg "Magic Gardens")
+![这是图片](./img/YUV4_2_0.jpg "Magic Gardens")
 
     # shape属性 包含三个信息 ： 高度， 长度， 通道数
     # size = 高度 * 长度 * 通道数
@@ -73,7 +73,7 @@
             ...
     }
 
-![这是图片](img/Mat.jpg "Magic Gardens")
+![这是图片](./img/Mat.jpg "Magic Gardens")
 
 Mat浅拷贝
 MAt A
