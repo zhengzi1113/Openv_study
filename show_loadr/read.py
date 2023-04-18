@@ -10,10 +10,10 @@ cv2.namedWindow('video', cv2.WINDOW_NORMAL)
 cv2.resizeWindow('video', 640, 360)
 
 #获取视频设备
-cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture(0)
 
 #获取视频文件
-# cap = cv2.VideoCapture("/home/xiang/OpenCV/video/out.mp4")
+cap = cv2.VideoCapture("/home/zheng/Openv_study/video/out.mp4")
 
 # 判断摄像头是否打开
 while cap.isOpened():
@@ -24,10 +24,10 @@ while cap.isOpened():
     if ret == True:
 
         cv2.imshow("video", frame)
-        cv2.resizeWindow('video', 640, 360)
+        # cv2.resizeWindow('video', 640, 360)
 
         #写数据到多媒体文件
-        vm.write(frame)
+        # vm.write(frame)
 
         key = cv2.waitKey(40)
         if(key & 0xFF == ord('q')):
