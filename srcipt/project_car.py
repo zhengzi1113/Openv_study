@@ -69,7 +69,6 @@ while True:
                     if y > line_hight - offset and y < line_hight + offset:
                         carcount += 1
                         cars.remove((x, y))
-                        print(carcount)
                
         
         # 展示
