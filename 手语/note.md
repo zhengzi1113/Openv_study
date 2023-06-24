@@ -1,7 +1,7 @@
 # 实现步骤
 1. Import and Install Dependencies
 
-    pip install tensorflow==2.4.1 tensorflow-gpu==2.4.1 opencv-gython mediapipe sklearn matplotlib
+    pip install tensorflow==2.10.0 tensorflow-gpu==2.10.0 opencv-gython mediapipe sklearn matplotlib
 
 2. Keypoints using MP Holistic
 
